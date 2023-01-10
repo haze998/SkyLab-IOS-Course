@@ -1,0 +1,4 @@
+target 'Homework 6 Task 1,2,3 @eternalhaze' do
+  use_frameworks!
+pod 'lottie-ios'
+end

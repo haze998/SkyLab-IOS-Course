@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomMenuBlock" customModule="Homework_6_Task_4__eternalhaze" customModuleProvider="target">
+            <connections>
+                <outlet property="customMenuBlockImageView" destination="Yq9-zX-ALy" id="oMW-dZ-efN"/>
+                <outlet property="customMenuBlockLabel" destination="4C6-W0-OjZ" id="Ij5-kH-tzI"/>
+                <outlet property="customMenuBlockView" destination="iN0-l3-epB" id="CJU-Ti-jzj"/>
+                <outlet property="viewForUIImage" destination="Ii5-dS-yBj" id="Z5v-gk-GSJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="408" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="V0Z-hf-Kyd">
+                    <rect key="frame" x="0.0" y="0.0" width="500" height="200"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
+                    <connections>
+                        <action selector="menuButtonPressed:" destination="-1" eventType="touchUpInside" id="sWW-tB-VVM"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Рассрочка на карту" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4C6-W0-OjZ">
+                    <rect key="frame" x="20" y="100" width="160.33333333333334" height="20.333333333333329"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ii5-dS-yBj">
+                    <rect key="frame" x="20" y="20" width="50" height="50"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chart" translatesAutoresizingMaskIntoConstraints="NO" id="Yq9-zX-ALy">
+                            <rect key="frame" x="13" y="13" width="25" height="25"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.34117650989999998" green="0.70980393890000004" blue="0.46274507050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstItem="Yq9-zX-ALy" firstAttribute="top" secondItem="Ii5-dS-yBj" secondAttribute="top" constant="13" id="1BO-js-egZ"/>
+                        <constraint firstItem="Yq9-zX-ALy" firstAttribute="leading" secondItem="Ii5-dS-yBj" secondAttribute="leading" constant="13" id="MvI-8L-SMA"/>
+                        <constraint firstAttribute="width" constant="50" id="SWQ-3F-q0h"/>
+                        <constraint firstAttribute="height" constant="50" id="eCm-Xn-5JF"/>
+                        <constraint firstAttribute="trailing" secondItem="Yq9-zX-ALy" secondAttribute="trailing" constant="12" id="iIu-dM-CxQ"/>
+                        <constraint firstAttribute="bottom" secondItem="Yq9-zX-ALy" secondAttribute="bottom" constant="12" id="mmc-sU-zIX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.15294116739999999" green="0.15294116739999999" blue="0.15294116739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Ii5-dS-yBj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="7Mz-Dz-oDG"/>
+                <constraint firstItem="4C6-W0-OjZ" firstAttribute="top" secondItem="Ii5-dS-yBj" secondAttribute="bottom" constant="30" id="9gx-AM-oml"/>
+                <constraint firstItem="4C6-W0-OjZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="YGm-fG-VNz"/>
+                <constraint firstItem="Ii5-dS-yBj" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="ybA-93-eK0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-195.41984732824426" y="26.760563380281692"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chart" width="512" height="512"/>
+    </resources>
+</document>

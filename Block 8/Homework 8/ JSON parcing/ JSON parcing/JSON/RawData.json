@@ -1,0 +1,57 @@
+{
+    "type": "list",
+    "company": {
+        "count": 2,
+        "companyDescription": "Apple is an American corporation that manufactures personal and tablet computers, audio players, smartphones, software and digital content.",
+        "listOfData": [
+            {
+                "name": "iPhone",
+                "modelNumber": "14",
+                "countries": [
+                    
+                    "USA",
+                    "Ukraine"
+                ],
+                "price":  {
+                    "regions": [
+                        {
+                            "name": "Angeles",
+                            "price": 1050
+                        },
+                        
+                        {
+                            "name": "Kharkiv",
+                            "price": 1500
+                        }
+                    ]
+                },
+                "year": 2021
+            },
+            {
+                "name": "MacBook",
+                "modelNumber": "M1",
+                "countries": [
+                    
+                    "USA",
+                    "Ukraine"
+                ],
+                "price":  {
+                    "regions":  [
+                        {
+                            "name": "Los Angeles",
+                            "price": 1000
+                        },
+                        
+                        {
+                            "name": "Kharkiv",
+                            "price": 1200
+                        }
+                    ]
+                },
+                "year": 2020
+            }
+        ]
+        
+    }
+    
+}
